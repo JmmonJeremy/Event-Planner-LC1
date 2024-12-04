@@ -116,8 +116,8 @@ export const getAddForm = (req: Request, res: Response): void => {
 };
 
 /*** MAIN 2 types of GET METHODS *******************************************************************************************************************/
-// #1 maing "Get" method for getting all Public creationGoals
-export const getAllPublicCreationGaols = async (req: Request, res: Response): Promise<void> => {
+// #1 main "Get" method for getting all Public creationGoals
+export const getAllPublicCreationGoals = async (req: Request, res: Response): Promise<void> => {
     /* #swagger.security = [{ "bearerAuth": [] }] */
     /* #swagger.summary = "GETS all the creationGoals with a status of Public ---------- (!!!OAUTH PROTECTED ROUTE!!!)" */   
     /* #swagger.description = 'All public creationGoals are displayed on the creationGoals index page.' */      
